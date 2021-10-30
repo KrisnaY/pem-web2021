@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <!-- Action Attribute -->
+<form action="proses.php" target="_blank" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> <br><br>
+  
+  <!-- input element serta legend element dan fieldset element -->
+  <fieldset>
+    <legend>Nama depan dan belakang</legend>
+    <label for="name">Nama depan :</label><br>
+    <input type="text" id="name" name="fname"><br>
+    <label for="bname">Nama belakang :</label><br>
+    <input type="text" id="bname" name="bname"><br>
+  </fieldset><br>
+
+  <!-- select element -->
+  <label for="umur">Umur : </label>
+  <select id="umur" name="umur" size="4">
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+  </select><br><br>
+
+  <!-- Textarea element -->
+  <textarea name="Pesan" rows="10" cols="35">
+    Saya Geoff berumur 17
+  </textarea><br>
+
+  <!-- Button element -->
+  <button type="button" onclick="alert('my name is jeff')">Klik saya</button>  
+ 
+  <!-- Output element -->
+  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+   <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br>
+</body>
+</html>
