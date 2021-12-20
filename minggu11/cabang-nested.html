@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Percabangan nested</title>
+</head>
+<body>
+	<script>
+		var username = prompt("Username : ");
+		var password = prompt("Password : ");
+
+		if(username == "geoff") {
+			if(password == "123") {
+				document.write("<h2>Selamat datang Geoff</h2>");
+			} else {
+				document.write("<p>Password salah, silahkan coba lagi!</p>");
+			}
+		} else {
+			document.write("<p>Anda belum terdaftarkan!</p>");
+		}
+ 	</script>
+</body>
+</html>
