@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Belajar Dasar Ajax</title>
+</head>
+<body>
+	<h1>Tutorial Ajax</h1>
+	<div id="hasil"></div>
+	<button onclick="loadcontent()">Load Content</button>
+	<script>
+		function loadcontent() {
+			// body...
+			var xhr = new XMLHttpRequest();
+			var url = "http://localhost/pem-web2021/minggu13/kode.json";
+			xhr.onreadystateshange = function(){
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElemenById("hasil").innerHTML = this.responseText;
+				}
+			};
+			xhr.open("GET", url, true);
+			xhr.send();
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mari Belajar Coding</title>
+	<script type="text/javascript">
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function () {
+			// body...
+			var data = JSON.parse(xhttp.responseText);
+			data.forEach(function(element){
+				document.getElementById("demo").innerHTML +="NIM :" + element.nim + "<br>Nama :" + element.nama + "<br>Alamat :" + element.alamat + "<br><br>";
+			});
+		};
+		xhttp.open("GET", "data.json", true);
+		xhttp.send();
+	</script>
+</head>
+<body>
+	<p id="demo"></p>
+</body>
+</html>
