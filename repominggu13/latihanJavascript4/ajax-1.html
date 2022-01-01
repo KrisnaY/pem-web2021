@@ -14,7 +14,7 @@
 		function loadcontent() {
 			// body...
 			var xhr = new XMLHttpRequest();
-			var url = "http://localhost/pem-web2021/minggu13/kode.json";
+			var url = "http://localhost/pem-web2021/repominggu13/kode.json";
 			xhr.onreadystateshange = function(){
 				if (this.readyState == 4 && this.status == 200) {
 					document.getElemenById("hasil").innerHTML = this.responseText;

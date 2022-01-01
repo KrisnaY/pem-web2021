@@ -9,10 +9,18 @@
 </head>
 <body>
 	<h1>Load Data</h1>
-	<pre id="result"></pre>
+	<img id="avatar" src="" width="100" height="100">
+	<br>
+	<h3 id="name"></h3>
+	<p id="location"></p>
 
 	<script>
-		$("#result").load("http://localhost/pem-web2021/minggu13/kode.json");
+		var url = "http://localhost/pem-web2021/repominggu13/kode.json";
+		$.get(url, function(data, status){
+			$("#avatar").attr("src", data.avatar_url);
+			$("#name").text(data.name);
+			$("#location").text(data.location);
+		});
 	</script>	
 </body>
 </html>
