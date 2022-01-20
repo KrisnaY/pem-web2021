@@ -1,0 +1,261 @@
+.login-group {
+  display: flex;
+  background-color: rgba(250, 237, 240, 0.882); }
+
+.login-group.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 870px;
+  flex-grow: 1; }
+
+.login-flex {
+  display: flex;
+  flex-direction: column; }
+
+.login-flex.layout {
+  position: relative;
+  flex-grow: 1;
+  margin: 41px 0px; }
+
+.login-flex1 {
+  display: flex; }
+
+.login-flex1.layout {
+  position: relative;
+  width: 12.78%;
+  margin: 0px auto 45px; }
+
+.login-image4 {
+  width: 100%;
+  height: auto; }
+
+.login-image4.layout {
+  position: relative;
+  flex: 0 1 60px;
+  width: 60px;
+  min-width: 60px;
+  margin: 0px 0px 2px; }
+
+.login-flex1-spacer {
+  flex: 0 1 21px; }
+
+.login-hero-title {
+  font: 36px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.login-hero-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 12px 0px 0px; }
+
+.login-flex3 {
+  display: flex;
+  flex-direction: column; }
+
+.login-flex3.layout {
+  position: relative;
+  margin: 1px 0px 89px; }
+
+.login-line {
+  background-color: black; }
+
+.login-line.layout {
+  position: relative;
+  height: 1px; }
+
+.login-cover-group {
+  display: flex;
+  background-color: white; }
+
+.login-cover-group.layout {
+  position: relative;
+  min-height: 554px;
+  width: 34.86%;
+  margin: 42px auto 0px; }
+
+.login-flex2 {
+  display: flex;
+  flex-direction: column; }
+
+.login-flex2.layout {
+  position: relative;
+  flex-grow: 1;
+  margin: 21px 19px; }
+
+.login-group1 {
+  display: flex; }
+
+.login-group1.layout {
+  position: relative;
+  height: 68px;
+  margin: 0px 4px; }
+
+.login-hero-title1 {
+  display: flex;
+  justify-content: center;
+  font: 36px/1.2 "Verdana", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.login-hero-title1 input{
+
+}
+
+.login-hero-title1.layout {
+  position: absolute;
+  top: 0px;
+  bottom: 24px;
+  left: 0px;
+  right: 0px;
+  width: 106px;
+  min-width: 106px;
+  margin: 0px auto; }
+
+.login-line1 {
+  background-color: black; }
+
+.login-line1.layout {
+  position: absolute;
+  top: 0px;
+  height: 1px;
+  left: 0px;
+  flex-grow: 1;
+  right: 0px;
+  margin: 67px 0px 0px; }
+
+.login-flex2-spacer {
+  flex: 0 1 60px; }
+
+.login-flex4 {
+  display: flex;
+  flex-direction: column; }
+
+.login-flex4.layout {
+  position: relative;
+  margin: 1px 4px 0px 0px; }
+
+.login-highlights {
+  font: 18px/1.2 "Verdana", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.login-highlights.layout {
+  position: relative; }
+
+.login-box1 {
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25098);
+  border: 1px solid black; }
+
+.login-box1.layout {
+  position: relative;
+  height: 44px;
+  margin: 9px 0px 0px 4px; }
+
+.login-flex2-spacer1 {
+  flex: 0 1 64px; }
+
+.login-flex4.layout1 {
+  position: relative;
+  margin: 0px 4px 0px 0px; }
+
+.login-flex2-spacer2 {
+  flex: 0 1 63px; }
+
+.login-flex6 {
+  display: flex; }
+
+.login-flex6.layout {
+  position: relative;
+  margin: 1px 4px 24px; }
+
+.login-flex6-item {
+  display: flex;
+  position: relative;
+  flex: 0 1 210px; }
+
+.login-flex7 {
+  display: flex;
+  flex-direction: column; }
+
+.login-flex7.layout {
+  position: relative;
+  flex-grow: 1; }
+
+.login-highlights.layout1 {
+  position: relative;
+  min-width: 210px; }
+
+.login-flex7-spacer {
+  flex: 0 1 30px; }
+
+.login-highlights-wrap {
+  display: flex; }
+
+.login-highlights-wrap.layout {
+  position: relative;
+  margin: 1px 34px 0px 3px; }
+
+
+.login-highlights.layout2 {
+  position: relative;
+  flex-grow: 1;
+  min-width: 138px;
+  margin: 3px 0px 3px 35px; }
+
+.login-box2 {
+  background-color: white;
+  border: 1px solid black; }
+
+.login-box2.layout {
+  position: absolute;
+  top: 0px;
+  height: 28px;
+  left: 0px;
+  width: 28px;
+  min-width: 28px; }
+
+.login-flex6-spacer {
+  flex: 0 1 74px; }
+
+.login-flex6-item1 {
+  display: flex;
+  position: relative;
+  flex: 0 1 172px; }
+
+.login-cover-group1 {
+  display: flex;
+  background-color: #68c4f8;
+  border: 0px solid black;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  padding: 10px 10px;
+  }
+
+.login-cover-group1.layout {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  flex-grow: 1;
+  margin: 18px 0px 3px; 
+  }
+
+
+.login-medium-title {
+  display: flex;
+  justify-content: flex-end;
+  font: 24px/1.2 "Verdana", Helvetica, Arial, serif;
+  color: black;
+  text-align: right;
+  letter-spacing: 0px; }
+
+.login-medium-title.layout {
+  position: relative;
+  width: 76px;
+  min-width: 76px;
+  margin: 15px 48px 16px auto; }
+
